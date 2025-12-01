@@ -11,4 +11,10 @@ public class OnSiteWorker extends Worker {
     public double calculateSalary(int hoursWorkedPerMonth) {
         return (hoursWorkedPerMonth * super.getPriceHour()) + gasoline;
     }
+    //Exercise 2
+    @Deprecated
+    @DeprecatedRuntime(since = "2.0",  forRemoval = true)
+    public double calculateSalaryOld(int hoursPerWeek) {
+        return (hoursPerWeek * super.getPriceHour());
+    }
 }
