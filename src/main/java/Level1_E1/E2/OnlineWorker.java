@@ -11,6 +11,7 @@ public class OnlineWorker extends Worker {
     //Exercise 2
     @Deprecated
     @DeprecatedRuntime(since = "2.0", forRemoval = true)
+    @SuppressWarnings("deprecation")
     public double calculateSalaryOld(int hoursPerWeek) {
         return (hoursPerWeek * super.getPriceHour());
     }
