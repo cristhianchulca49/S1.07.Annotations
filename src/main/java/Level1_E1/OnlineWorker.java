@@ -1,4 +1,4 @@
 package Level1_E1;
 
-public class OnlineWorker {
+public class OnlineWorker extends Worker {
 }
