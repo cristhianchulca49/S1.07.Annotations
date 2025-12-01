@@ -1,8 +1,11 @@
 package Level1_E1;
 
 public class OnSiteWorker extends Worker {
-    @Override
-    public void calculateSalary(int hoursWorked) {
+    private static double gasoline;
+    private double salary;
 
+    @Override
+    public void calculateSalary(int hoursWorkedPerMonth) {
+        this.salary = hoursWorkedPerMonth * super.getPriceHour() * gasoline;
     }
 }
