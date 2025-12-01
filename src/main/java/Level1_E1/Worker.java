@@ -3,7 +3,7 @@ package Level1_E1;
 public class Worker {
     private String name;
     private String surname;
-    private double priceHour;
+    private double priceHour = 9.21;
 
     public double getPriceHour() {
         return priceHour;
