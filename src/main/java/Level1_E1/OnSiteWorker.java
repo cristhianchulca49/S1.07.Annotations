@@ -6,6 +6,6 @@ public class OnSiteWorker extends Worker {
 
     @Override
     public void calculateSalary(int hoursWorkedPerMonth) {
-        this.salary = hoursWorkedPerMonth * super.getPriceHour() * gasoline;
+        salary = (hoursWorkedPerMonth * super.getPriceHour()) + gasoline;
     }
 }
