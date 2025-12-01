@@ -1,7 +1,7 @@
-package Level1.E1;
+package Level1.E1_E2;
 
-import Level1_E1.OnSiteWorker;
-import Level1_E1.OnlineWorker;
+import Level1_E1.E2.OnSiteWorker;
+import Level1_E1.E2.OnlineWorker;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

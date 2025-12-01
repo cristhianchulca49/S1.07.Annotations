@@ -1,4 +1,4 @@
-package Level1_E1;
+package Level1_E1.E2;
 
 public class OnSiteWorker extends Worker {
     private static double gasoline;
