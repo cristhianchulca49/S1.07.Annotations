@@ -9,7 +9,7 @@ public class Worker {
         return priceHour;
     }
 
-    public void calculateSalary(int hoursWorked) {
-        double salary = hoursWorked * priceHour;
+    public double calculateSalary(int hoursWorked) {
+        return hoursWorked * priceHour;
     }
 }
